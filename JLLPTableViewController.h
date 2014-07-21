@@ -1,5 +1,5 @@
 //
-//  JLLPViewController.h
+//  JLLPTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by João Pinheiro on 20/07/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JLLPViewController : UIViewController
+@interface JLLPTableViewController : UITableViewController
 
 @end

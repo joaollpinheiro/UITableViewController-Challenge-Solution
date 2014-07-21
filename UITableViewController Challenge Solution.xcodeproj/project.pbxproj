@@ -14,13 +14,13 @@
 		12630066197CB3C000490EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12630065197CB3C000490EC1 /* main.m */; };
 		1263006A197CB3C000490EC1 /* JLLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12630069197CB3C000490EC1 /* JLLPAppDelegate.m */; };
 		1263006D197CB3C000490EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1263006B197CB3C000490EC1 /* Main.storyboard */; };
-		12630070197CB3C000490EC1 /* JLLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1263006F197CB3C000490EC1 /* JLLPViewController.m */; };
 		12630072197CB3C000490EC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12630071197CB3C000490EC1 /* Images.xcassets */; };
 		12630079197CB3C000490EC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12630078197CB3C000490EC1 /* XCTest.framework */; };
 		1263007A197CB3C000490EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12630059197CB3C000490EC1 /* Foundation.framework */; };
 		1263007B197CB3C000490EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263005D197CB3C000490EC1 /* UIKit.framework */; };
 		12630083197CB3C000490EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12630081197CB3C000490EC1 /* InfoPlist.strings */; };
 		12630085197CB3C000490EC1 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12630084197CB3C000490EC1 /* UITableViewController_Challenge_SolutionTests.m */; };
+		12630090197CB56000490EC1 /* JLLPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1263008F197CB56000490EC1 /* JLLPTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		12630068197CB3C000490EC1 /* JLLPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLLPAppDelegate.h; sourceTree = "<group>"; };
 		12630069197CB3C000490EC1 /* JLLPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLPAppDelegate.m; sourceTree = "<group>"; };
 		1263006C197CB3C000490EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1263006E197CB3C000490EC1 /* JLLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLLPViewController.h; sourceTree = "<group>"; };
-		1263006F197CB3C000490EC1 /* JLLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLPViewController.m; sourceTree = "<group>"; };
 		12630071197CB3C000490EC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12630077197CB3C000490EC1 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12630078197CB3C000490EC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		12630080197CB3C000490EC1 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		12630082197CB3C000490EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12630084197CB3C000490EC1 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		1263008E197CB56000490EC1 /* JLLPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLLPTableViewController.h; path = ../JLLPTableViewController.h; sourceTree = "<group>"; };
+		1263008F197CB56000490EC1 /* JLLPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLLPTableViewController.m; path = ../JLLPTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		1263005F197CB3C000490EC1 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				1263008E197CB56000490EC1 /* JLLPTableViewController.h */,
+				1263008F197CB56000490EC1 /* JLLPTableViewController.m */,
 				12630068197CB3C000490EC1 /* JLLPAppDelegate.h */,
 				12630069197CB3C000490EC1 /* JLLPAppDelegate.m */,
 				1263006B197CB3C000490EC1 /* Main.storyboard */,
-				1263006E197CB3C000490EC1 /* JLLPViewController.h */,
-				1263006F197CB3C000490EC1 /* JLLPViewController.m */,
 				12630071197CB3C000490EC1 /* Images.xcassets */,
 				12630060197CB3C000490EC1 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12630070197CB3C000490EC1 /* JLLPViewController.m in Sources */,
+				12630090197CB56000490EC1 /* JLLPTableViewController.m in Sources */,
 				1263006A197CB3C000490EC1 /* JLLPAppDelegate.m in Sources */,
 				12630066197CB3C000490EC1 /* main.m in Sources */,
 			);
